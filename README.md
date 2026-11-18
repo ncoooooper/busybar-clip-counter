@@ -22,7 +22,7 @@ Use the second display for a game capture or an extra HUD beside the monitor. Th
 
 ## Example from the emulator
 
-The fixture supplied 17 rounds in the active item and 60 in reserve. Each number has its own page. Only the active item’s data is forwarded to the BUSY Bar. Replayed documented game-state fields through the HTTP event receiver. A live CS2 match was unavailable.
+The fixture supplied 17 rounds in the active item and 60 in reserve. Each number has its own page. Only the active item’s data is forwarded to the BUSY Bar. The test replayed game-state events from the documented integration format.
 
 ## Set up the source
 
