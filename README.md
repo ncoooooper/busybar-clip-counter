@@ -4,6 +4,20 @@ Turn the active item's virtual magazine and reserve in Counter-Strike 2 into a d
 
 Use the second display for a game capture or an extra HUD beside the monitor. The active Counter-Strike 2 item and its spare rounds stay readable even when the in-game figures are small.
 
+## Screen transitions
+
+Switch between the active item and the magazine count. The gauges belong to the selected item.
+
+![Clip Counter front display. Switch between the active item and the magazine count. The gauges belong to the selected item.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Clip Counter rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Follow the active item
 
 1. Install the included Game State Integration configuration on the PC running Counter-Strike 2. Use the same local event token in both configurations.
@@ -42,6 +56,6 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The end frames pause for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)
