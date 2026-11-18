@@ -10,7 +10,7 @@
   "frames": 54,
   "distinct_frames": 13,
   "exit": "App io.ncoooooper.clipcounter exited: finished; heap peak 81.8 of 128 KiB",
-  "sha256": "0b93abba6646de1e0d504d6f25ca177a22ae9886631c529bf27bc02f1928e27d",
+  "sha256": "ec84fe660e53b2680a7c6f2432c3401b8bb35d385e28c05b007285e982f4bad9",
   "pages": [
     {
       "caption": "GAME AMMO",
@@ -37,5 +37,24 @@
       "Start CS2 with GSI enabled",
       "Player weapons only"
     ]
+  },
+  "display_test": {
+    "firmware": "1.3.1",
+    "input": "Recorded companion readings",
+    "keys": [
+      [
+        "up"
+      ],
+      [
+        "down",
+        "ok"
+      ]
+    ],
+    "frames": 128,
+    "distinct_by_flow": [
+      6,
+      11
+    ],
+    "exit": "App io.btype.clipcounter exited: finished; heap peak 87.3 of 128 KiB"
   }
 }
