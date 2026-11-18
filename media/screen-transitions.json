@@ -1,6 +1,17 @@
 {
   "app": "busybar-clip-counter",
-  "sha256": "48eff713e7cfb52c5a9a7da453dd44183f8d6660ff706b9f096919353710d490",
+  "sha256": "82a0e823d8c1b30ae0b53677339579bea4ba9a10818c7030f8bbb256e5295424",
+  "rapid_input_test": {
+    "app": "io.ncoooooper.clipcounter",
+    "sha256": "82a0e823d8c1b30ae0b53677339579bea4ba9a10818c7030f8bbb256e5295424",
+    "firmware": {
+      "name": "1.3.1",
+      "commit": "8edd2da4"
+    },
+    "heap_peak_kib": 90.0,
+    "budget_kib": 128.0,
+    "exit": "finished"
+  },
   "firmware": "1.3.1",
   "cell": 16,
   "lit": 14,
