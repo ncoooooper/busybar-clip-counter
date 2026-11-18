@@ -1,0 +1,41 @@
+{
+  "id": "BB-016",
+  "source": "Replayed documented game-state fields through the HTTP event receiver. A live CS2 match was unavailable.",
+  "scenario": "Posted a game event with 17 in the active item's clip and 60 in reserve. The display left standby and showed the active values.",
+  "keys": [
+    "up",
+    "down",
+    "ok"
+  ],
+  "frames": 54,
+  "distinct_frames": 14,
+  "exit": "App io.ncoooooper.clipcounter exited: finished; heap peak 81.8 of 128 KiB",
+  "sha256": "9c227098bc5d1a7f4f861536da365203435614b7f4dd8271d03ba6fd6fcdf14d",
+  "pages": [
+    {
+      "caption": "GAME AMMO",
+      "value": "17",
+      "lines": [
+        "test",
+        "Reserve 60"
+      ],
+      "fraction": 0.5666666666666667
+    },
+    {
+      "caption": "GAME RESERVE",
+      "value": "60",
+      "lines": [
+        "Ammo for the active item",
+        "Game State Integration"
+      ]
+    }
+  ],
+  "initial": {
+    "caption": "VIRTUAL HUD",
+    "value": "Stand by",
+    "lines": [
+      "Start CS2 with GSI enabled",
+      "Player weapons only"
+    ]
+  }
+}

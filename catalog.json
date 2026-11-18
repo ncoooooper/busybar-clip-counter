@@ -1,0 +1,6 @@
+{
+  "category": "games",
+  "short_description": "Turn the active item's virtual magazine and reserve in Counter-Strike 2 into a desktop HUD.",
+  "description": "Turn the active item's virtual magazine and reserve in Counter-Strike 2 into a desktop HUD. Copy companion/gamestate_integration_busybar.cfg into the game's csgo/cfg folder and set the same local token in it and in config.json. The game posts player_weapons events to the companion at /event. Only the current item, clip and reserve reach the bar. A knife or item without ammo shows --. When the game stops sending events the HUD goes to standby. A game on another PC must use the reachable private LAN address of the companion.",
+  "changelog": "First public version."
+}

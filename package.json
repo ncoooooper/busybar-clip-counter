@@ -2,7 +2,7 @@
   "name": "busybar-clip-counter",
   "private": true,
   "version": "0.1.0",
-  "description": "Clip Counter",
+  "description": "Turn the active item's virtual magazine and reserve in Counter-Strike 2 into a desktop HUD.",
   "author": "ncoooooper",
   "type": "module",
   "scripts": {
