@@ -8,9 +8,9 @@
     "ok"
   ],
   "frames": 54,
-  "distinct_frames": 14,
+  "distinct_frames": 13,
   "exit": "App io.ncoooooper.clipcounter exited: finished; heap peak 81.8 of 128 KiB",
-  "sha256": "9c227098bc5d1a7f4f861536da365203435614b7f4dd8271d03ba6fd6fcdf14d",
+  "sha256": "0b93abba6646de1e0d504d6f25ca177a22ae9886631c529bf27bc02f1928e27d",
   "pages": [
     {
       "caption": "GAME AMMO",
