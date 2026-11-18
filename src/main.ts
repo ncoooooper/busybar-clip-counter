@@ -5,10 +5,6 @@ instrument({
   "primary": "Clip Counter",
   "accent": "#FFA85D",
   "cadence": 1750,
-  "motion": {
-    "motif": "cells",
-    "color": "#FFA85D",
-    "shine": "#FFF2D6"
-  },
+  "motion": {enabled:false},
   "setup": "Start companion/serve.py"
 });
